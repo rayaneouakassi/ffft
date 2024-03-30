@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="hh.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="getLocation()">
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="rd">
+    <a href="#" class="logo">rayane</a>
+    <nav class="navigation">
+        <a href="the best login page.html" class="my" target="_blank">login</a>
+        <a href="creat.html" class="my" target="_blank">creat acount</a>
+        <a href="who im i.html" class="my" target="_blank"> who im i</a>
+
+    </nav>
+</header>
+
+
+<section class="main">
+    <div>
+        <h2>hello i am rayane ouakssi <br> <span>programming</span></h2><br>
+        <h3>I'm just a beginner in the programming field</h3>
+        <a href="rayanr.html" class="maim-btn" target="_blank">view my ....</a>
+    </div>
+    <section class="cards" id="services">
+        <h2>services</h2>
+        <div class="content">
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3>script writing</h3>
+                    <p>research and write scripts for differnt topics that can then be directly recorded for video
+                        production</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const x = document.getElementById("demo");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+
+            const xhttp = new XMLHttpReques();
+            xhttp.open("GET", "location_save.php?lat_" + position.coords.latitude + "&long=" + position.coords.longitude );
+            xhttp.send(); 
+
+       
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+* {
+    font-family: 'poppins ', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.rd {
+    background-color: grey
+}
+
+
+header {
+
+    color: ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo {
+    background-color: darkgrey;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+.navigation a:hover {
+    color: deeppink;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 1005;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: dimgrey;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    color: #4e9eff;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 3em;
+
+}
+
+.maim h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.maim-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.4s ease;
+}
+
+.main-btn-hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.social-icons {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
